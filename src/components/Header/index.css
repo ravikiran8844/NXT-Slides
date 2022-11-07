@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #dbeafe;
+  display: flex;
+  align-items: center;
+}
+
+.navLogo {
+  width: 80px;
+  padding: 5px;
+}

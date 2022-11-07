@@ -1,0 +1,40 @@
+.cards {
+  display: flex;
+}
+.activeCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  width: 100vw;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.cardHeading {
+  color: #0967d2;
+  font-size: 40px;
+}
+.cardText {
+  color: #0f172a;
+  font-size: 20px;
+}
+ol {
+  overflow: scroll;
+  height: 80vh;
+}
+.addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbeafe;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 10px;
+}
+.plus {
+  width: 30px;
+  margin-right: 10px;
+}
